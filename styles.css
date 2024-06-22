@@ -64,3 +64,20 @@ button {
 button:hover {
     background-color: #3700B3;
 }
+
+footer {
+    background-color: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
