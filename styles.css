@@ -70,10 +70,9 @@ footer {
     color: #aaa;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     width: 100%;
-    bottom: 0;
-    font-family: 'Arial', sans-serif;
+    margin-top: auto;
+    font-size: 14px;
 }
 
 footer p {
