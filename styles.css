@@ -26,7 +26,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 500px;
+    max-width: 600px;
     width: 100%;
 }
 
@@ -36,20 +36,31 @@ h1 {
     font-weight: 700;
 }
 
-/* Paragraph styling */
-p {
+/* Textarea styling */
+textarea {
+    width: 100%;
     margin-bottom: 20px;
-    font-weight: 400;
-}
-
-/* List styling */
-ul {
-    list-style: none;
-}
-
-li {
-    margin: 10px 0;
     padding: 10px;
-    background-color: #272727;
     border-radius: 4px;
+    border: 1px solid #333;
+    background-color: #272727;
+    color: #E0E0E0;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6200EA;
+    color: #E0E0E0;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3700B3;
 }
